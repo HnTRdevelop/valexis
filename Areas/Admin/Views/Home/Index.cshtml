@@ -1,0 +1,48 @@
+﻿@model IQueryable<Product>
+
+<title>Панель администратора</title>
+<div>
+    <h2>Панель администратора</h2>
+    <div>
+        <h3>Товары</h3>
+        <div class="box">
+            <a asp-area="Admin" asp-controller="Product" asp-action="Edit" asp-route-id="">Добавить товар</a>
+        </div>
+        @if (Model.Any())
+        {
+            <div class="tiles">
+            @foreach (Product entity in Model)
+            {
+                string[] images = entity.ImageLink.Split("#@#");
+                string image = images[0];
+                <div class="box">
+                    <span class="image left">
+                        @if (File.Exists("wwwroot/images/products/" + image))	
+		                {
+                            <img src="~/images/products/@image" alt="" />
+                        }
+                        else
+                        {
+                            <img src="~/images/nopic.png" alt="" />
+                        }
+                    </span>
+                    <br />
+                    <a asp-area="" asp-controller="Products" asp-action="Index" asp-route-id="@entity.Id">@entity.Name</a>
+                    <br />
+                    <a asp-area="Admin" asp-controller="Product" asp-action="Edit" asp-route-id="@entity.Id">редактировать</a>
+                    <br />
+                    <form style="display: inline-block;" id="form-@entity.Id" asp-area="Admin" asp-controller="Product" asp-action="Delete" method="post">
+                        <input type="hidden" name="id" value="@entity.Id">
+                        <a href="#" onclick="document.getElementById('form-@entity.Id').submit();">удалить</a>
+                    </form>
+                    </div>
+            }
+            </div>
+    }
+    </div>
+    <div>
+        <form asp-area="" asp-controller="Account" asp-action="Logout" method="post">
+            <input type="submit" value="Выйти из аккаунта" />
+        </form>
+    </div>
+</div>

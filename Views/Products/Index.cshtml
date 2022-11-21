@@ -1,0 +1,75 @@
+﻿@model IQueryable<Product>
+@using valexis.Controllers;
+@{
+    ViewBag.Title = @Config.CompanyName + " - " + @Config.CompanySlogan;
+
+    int productsInRow = 1;
+
+    string category = "0";
+    if (Context.GetRouteValue("id") != null)
+    {
+        category = Context.GetRouteValue("id").ToString().ToLower();
+    }
+
+    List<Product> productList = Model.ToList<Product>();
+}
+
+
+<div>
+<h1>@ViewBag.Message</h1>
+    <h1>Каталог : @Product.categories[Convert.ToInt32(category)] </h1>
+    <nav>
+        @{
+            string color1 = "#ffffff";
+            string color2 = "#f7f7f7";
+            string col = color1;
+        }
+        @foreach(string c in Product.categories)
+        {
+            <span style="background-color: @col; margin-left: 16px; margin-right: 16px;"><a asp-area="" asp-controller="Products" asp-action="Index" asp-route-id="@Product.categories.IndexOf(c)" > @c </a></span>
+
+            if (col == color1) col = color2;
+            else col = color1;
+        }
+    </nav>
+    <br />
+    @if (Model.Any())
+    {
+        <div class="box alt">
+            <div class="row gtr-uniform">
+                @for(int i = 0; i < productList.Count / productsInRow + 1; i++)
+                {
+                    @for(int x = 0; x < productsInRow; x++)
+                    {
+                        int index = x + i * productsInRow;
+                        if(index >= productList.Count) break;
+
+                        Product product = productList[index];
+                        string[] images = product.ImageLink.Split("#@#");
+
+                        if(!product.Category.Contains(category)) continue;
+                        <div class="col-6">
+                            <a asp-area="" asp-controller="Products" asp-action="Index" asp-route-id="@product.Id">
+                                <span class="image fit">
+                                    @if (File.Exists("wwwroot/images/products/" + images[0]))
+                                    {
+                                        <img src="~/images/products/@images[0]" alt="" />
+                                    }
+                                    else
+                                    {
+                                        <img src="~/images/nopic.png" alt="" />
+                                    }
+                                </span>
+                                <h2 class="name">@product.Name</h2>
+                                @if (!product.Category.Contains(Product.categories.IndexOf("кухни").ToString()))
+                                {
+                                    <h2 class="price">@product.Price.ToString("N0") ₽</h2>
+                                }
+                            </a>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    }
+</div>

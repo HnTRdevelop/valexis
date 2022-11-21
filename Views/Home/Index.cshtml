@@ -1,0 +1,35 @@
+﻿@model IQueryable<Product>
+@using valexis.Controllers;
+@using valexis.Domain.Entities;
+@{
+    ViewBag.Title = @Config.CompanyName + " - " + @Config.CompanySlogan;
+}
+
+<h1 style="text-align: center;">
+	Ищите оригинальную корпусную мебель в Тюмени и хотите купить нечто действительно качественное?
+</h1>
+<section class="tiles">
+	@foreach(string category in Product.categories)
+	{
+		<article>
+			<span class="image">
+				@{
+					string imgLink = @category + ".jpg";
+					if (!File.Exists("wwwroot/images/categories/" + imgLink))	
+					{
+						imgLink = "nopic.jpg";
+					} 
+				}
+				<img src="~/images/categories/@imgLink" alt="" />
+			</span>
+			<a asp-area="" asp-controller="Products" asp-action="Index" asp-route-id="@Product.categories.IndexOf(category)">
+				<h2>@category</h2>
+				<div class="content"></div>
+			</a>
+		</article>
+	}
+</section>
+<hr />
+<p>
+	Именно здесь вы сможете купить мебель в разной ценовой категории и получить ее с доставкой по указанному адресу.  Ассортимент регулярно расширяется и дополняется новыми моделями. Если вам нужна предварительная консультация или помощь при выборе, обращаетесь к нашим специалистам за помощью. Поможем Вам создать интерьер уникальным, с учетом Вашего бюджета и потребностей.  В нашем магазине мебель для гостиной, для спальни, для детской комнаты, для кухни, для сада, для прихожей. Что выбрать – решать Вам. Наша задача – предоставить максимальный выбор для Вашего комфорта и уюта. В нашем магазине представлены десятки вариантов мебели в самом разном дизайне, что позволит Вам без проблем подобрать именно то, что Вам подойдет по всем параметрам. Мебель из нашего магазина придется по душе всем членам семьи, а приятная цена добавит радости при покупке. Помните, что красота и уют кроиться в мелочах.
+</p>

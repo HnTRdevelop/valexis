@@ -1,0 +1,31 @@
+﻿<footer id="footer">
+	<div class="inner">
+		<section>
+			<h2>Связаться с нами</h2>
+			@*<form method="post" action="#">
+				<div class="fields">
+					<div class="field half">
+						<input type="text" name="name" id="name" placeholder="Ваше имя" />
+					</div>
+					<div class="field half">
+						<input type="text" name="phoneNumber" placeholder="Ваш номер телефона"/>
+					</div>
+					<div class="field">
+						<textarea name="message" id="message" placeholder="Обращение"></textarea>
+					</div>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Отправить" class="primary" /></li>
+				</ul>
+			</form>*@
+			<ul>
+				<li>@Config.CompanyPhone</li>
+				<li>@Config.CompanyEmail</li>
+			</ul>
+		</section>
+		<ul class="copyright">
+			<li><h4>@Config.CompanyName - @Config.CompanySlogan</h4></li>
+		</ul>
+		<div><a asp-area="Admin" asp-controller="Home" asp-action="Index" asp-route-id="">Панель администратора</a></div>
+	</div>
+</footer>

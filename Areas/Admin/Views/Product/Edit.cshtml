@@ -1,0 +1,130 @@
+﻿@model Product
+@{
+    string[] images = Model.ImageLink.Split("#@#");
+}
+
+<script src="~/js/ckeditor/ckeditor.js"></script>
+
+<title>Редактирование товара</title>
+<div>
+    <h2>Редактирование товара</h2>
+    <form asp-area="Admin" asp-controller="Product" asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="ImageLink" value="@Model.ImageLink" />
+        <input type="hidden" asp-for="Category" value="@Model.Category" disabled="disabled" />
+
+        <div asp-validation-summary="All"></div>
+        <div class="div-box">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+        </div>
+
+        <div asp-validation-summary="All"></div>
+        <div class="div-box">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" />
+            <span asp-validation-for="Price"></span>
+        </div>
+
+        <div asp-validation-summary="All"></div>
+        <div class="div-box">
+            <label asp-for="Category"></label>
+            @{
+                string color1 = "#ffffff";
+                string color2 = "#f7f7f7";
+                string col = color1;
+            }
+            @for(int i = 0; i < Product.categories.Count; i++)
+            {
+                <span style="background-color: @col; margin-left: 16px; margin-right: 16px;">
+                    <input type="checkbox" name="categoriesList" id="categoriesList" value="@i" checked="@Model.Category.Contains(@i.ToString())" />@Product.categories[i]
+                </span>
+            
+                if (col == color1) col = color2;
+                else col = color1;
+            }
+            <span asp-validation-for="Category"></span>
+        </div>
+
+        <div asp-validation-summary="All"></div>
+        <div class="div-box">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description"></textarea>
+            <span asp-validation-for="Description"></span>
+        </div>
+        
+        <div asp-validation-summary="All"></div>
+        <div class="div-box">
+            <label asp-for="ImageLink"></label> 
+            <label>@Model.ImageLink</label>
+            @for(int i = 0; i < 9; i++)
+            {
+                <input type="file" name="images" id="images" />
+            }
+            <br />
+            <div class="slideshow-container image fit">
+                @foreach(string img in images)
+                {
+                    <div class="mySlides">
+                        <img src="~/images/products/@img">
+                    </div>
+                }
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+        <div asp-validation-summary="All"></div>
+        <div class="div-box">
+            <label asp-for="MetaKeywords"></label>
+            <input asp-for="MetaKeywords" />
+            <span asp-validation-for="MetaKeywords"></span>
+        </div>
+        
+        <input type="submit" value="Сохранить" />
+    </form>
+</div>
+
+
+
+<script>
+    window.onload = function() {
+        var newCKEdit = CKEDITOR.replace('@Html.IdFor(x=>x.Description)');
+        newCKEdit.updateElement();
+    }
+</script>
+
+
+
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>

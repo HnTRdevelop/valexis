@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #9b9183;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 512px;
+        fill: #fee970;
+        text-anchor: middle;
+        font-family: "Beyond The Mountains";
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_1" data-name="Эллипс 1" class="cls-1" cx="1024" cy="1024" r="916"/>
+  <path id="Эллипс_3" data-name="Эллипс 3" class="cls-2" d="M1024,5c562.78,0,1019,456.222,1019,1019S1586.78,2043,1024,2043,5,1586.78,5,1024,461.222,5,1024,5Zm0,109c502.58,0,910,407.421,910,910s-407.42,910-910,910-910-407.42-910-910S521.421,114,1024,114Zm0-34c521.36,0,944,422.643,944,944s-422.64,944-944,944S80,1545.36,80,1024,502.643,80,1024,80Z"/>
+  <text id="v" class="cls-3" transform="translate(1027.213 1632.516) scale(4.094)"><tspan x="0">v</tspan></text>
+</svg>

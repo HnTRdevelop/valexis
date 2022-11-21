@@ -1,0 +1,1926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAThrqn6ZeREmoeuTgSCTT4AAAAAACAAAAAAAQZgAAAAEAACAAAAAmqb5nxzkfzL1ItElitqKVa3AI/VVOM1RF7znZZt8cgwAAAAAOgAAAAAIAACAAAABNIJiNExu+xGZTit1AMU2NYe1umB3NXajkYLO1cHqqxyAAAADgv8UwobC8uUuA9Omuml3aTkUjRKFilscBOxeXaCxXl0AAAADzlymk6vAucSRuQs9wN/BTmeDa6E2Y5bxR7JXEkKa/kw9k4369CXj64BJWhk1BAorQF0MTCZoQUSC2mHKyF2SN</EncryptedPassword>
+    <_PublishTargetUrl>ftp://valexis.somee.com/www.valexis.somee.com</_PublishTargetUrl>
+    <History>True|2022-09-11T12:32:37.3942266Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.json">
+      <publishTime>09/09/2022 18:48:50</publishTime>
+    </File>
+    <File Include="appsettings.production.json">
+      <publishTime>08/17/2022 19:23:17</publishTime>
+    </File>
+    <File Include="appsettings.staging.json">
+      <publishTime>08/17/2022 19:23:02</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:36</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:36</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="DocumentFormat.OpenXml.dll">
+      <publishTime>06/29/2022 05:21:34</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>08/09/2022 02:18:10</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:36</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:36</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="Humanizer.dll">
+      <publishTime>06/02/2020 18:07:58</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:36</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:38</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:38</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="MessagePack.Annotations.dll">
+      <publishTime>07/01/2020 18:05:20</publishTime>
+    </File>
+    <File Include="MessagePack.dll">
+      <publishTime>07/01/2020 18:05:38</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>07/14/2022 06:10:18</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
+      <publishTime>07/14/2022 06:10:44</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
+      <publishTime>07/14/2022 06:12:18</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Language.dll">
+      <publishTime>10/27/2021 02:51:08</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>10/19/2020 23:47:56</publishTime>
+    </File>
+    <File Include="Microsoft.Build.Locator.dll">
+      <publishTime>01/21/2021 23:41:58</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.AnalyzerUtilities.dll">
+      <publishTime>06/06/2020 08:37:20</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Features.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>10/14/2021 23:42:38</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Features.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Razor.dll">
+      <publishTime>10/27/2021 02:51:14</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.VisualBasic.Features.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>10/14/2021 23:38:16</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.MSBuild.dll">
+      <publishTime>10/14/2021 23:38:36</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 04:59:32</publishTime>
+    </File>
+    <File Include="Microsoft.DiaSymReader.dll">
+      <publishTime>06/11/2018 15:53:22</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.Scaffolding.Shared.dll">
+      <publishTime>08/09/2022 02:17:54</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>07/13/2022 02:50:18</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>07/13/2022 02:50:44</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>07/13/2022 02:50:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>07/13/2022 02:51:08</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>01/15/2022 00:54:16</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Core.dll">
+      <publishTime>07/14/2022 06:11:06</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Stores.dll">
+      <publishTime>07/14/2022 06:11:28</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>10/20/2020 02:51:12</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/13/2020 05:21:34</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/13/2020 05:23:12</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>10/13/2020 05:25:30</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>10/13/2020 05:31:32</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/13/2020 05:27:48</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Debugger.Contracts.dll">
+      <publishTime>10/13/2021 03:56:42</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>08/09/2022 02:18:04</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>08/09/2022 02:18:06</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>08/09/2022 02:18:06</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>08/09/2022 02:18:00</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>08/09/2022 02:17:56</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>08/09/2022 02:18:08</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/23/2021 04:40:24</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 01:03:36</publishTime>
+    </File>
+    <File Include="NuGet.Common.dll">
+      <publishTime>05/13/2022 05:13:54</publishTime>
+    </File>
+    <File Include="NuGet.Configuration.dll">
+      <publishTime>05/13/2022 05:14:00</publishTime>
+    </File>
+    <File Include="NuGet.DependencyResolver.Core.dll">
+      <publishTime>06/02/2021 01:46:00</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>05/13/2022 05:14:04</publishTime>
+    </File>
+    <File Include="NuGet.LibraryModel.dll">
+      <publishTime>06/02/2021 01:46:38</publishTime>
+    </File>
+    <File Include="NuGet.Packaging.dll">
+      <publishTime>05/13/2022 05:16:28</publishTime>
+    </File>
+    <File Include="NuGet.ProjectModel.dll">
+      <publishTime>06/02/2021 01:48:08</publishTime>
+    </File>
+    <File Include="NuGet.Protocol.dll">
+      <publishTime>06/02/2021 01:48:36</publishTime>
+    </File>
+    <File Include="NuGet.Versioning.dll">
+      <publishTime>05/13/2022 05:16:12</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:38</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:38</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:38</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/23/2021 04:51:42</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 04:59:34</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 23:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 23:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 23:13:38</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 23:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/23/2021 04:40:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/23/2021 04:48:10</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/23/2021 04:51:04</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Windows.Extensions.dll">
+      <publishTime>10/23/2021 04:49:58</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 04:59:34</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 13:53:44</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>11/05/2016 09:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>11/05/2016 09:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>11/05/2016 09:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>11/05/2016 09:55:44</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>11/05/2016 09:55:46</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>10/23/2021 04:51:46</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>10/23/2021 04:49:12</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/13/2020 05:20:12</publishTime>
+    </File>
+    <File Include="System.IO.Packaging.dll">
+      <publishTime>11/15/2019 13:37:18</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 13:37:36</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/23/2021 04:51:04</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>10/23/2021 04:49:50</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>10/23/2021 04:49:44</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:38</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="valexis.deps.json">
+      <publishTime>09/11/2022 16:55:22</publishTime>
+    </File>
+    <File Include="valexis.dll">
+      <publishTime>09/11/2022 16:55:18</publishTime>
+    </File>
+    <File Include="valexis.exe">
+      <publishTime>09/11/2022 16:55:18</publishTime>
+    </File>
+    <File Include="valexis.pdb">
+      <publishTime>09/11/2022 16:55:18</publishTime>
+    </File>
+    <File Include="valexis.runtimeconfig.json">
+      <publishTime>08/20/2022 16:36:31</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>09/11/2022 16:55:22</publishTime>
+    </File>
+    <File Include="wwwroot/css/fontawesome-all.min.css">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/css/main.css">
+      <publishTime>09/05/2022 18:59:27</publishTime>
+    </File>
+    <File Include="wwwroot/css/main.min.css">
+      <publishTime>09/05/2022 18:59:27</publishTime>
+    </File>
+    <File Include="wwwroot/css/noscript.css">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/images/categories/nopic.jpg">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/images/logo.png">
+      <publishTime>09/04/2022 12:11:38</publishTime>
+    </File>
+    <File Include="wwwroot/images/logo.svg">
+      <publishTime>08/16/2022 19:25:06</publishTime>
+    </File>
+    <File Include="wwwroot/images/nopic.png">
+      <publishTime>09/01/2022 22:17:18</publishTime>
+    </File>
+    <File Include="wwwroot/images/products/fbrc.png">
+      <publishTime>09/11/2022 15:33:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/products/logo.png">
+      <publishTime>09/10/2022 17:22:54</publishTime>
+    </File>
+    <File Include="wwwroot/images/products/nopic.png">
+      <publishTime>09/05/2022 19:05:20</publishTime>
+    </File>
+    <File Include="wwwroot/js/breakpoints.min.js">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/js/browser.min.js">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/adapters/jquery.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/bender-runner.config.json">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/build-config.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/CHANGES.md">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/ckeditor.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/config.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/contents.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/af.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ar.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/az.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/bg.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/bn.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/bs.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ca.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/cs.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/cy.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/da.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/de-ch.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/de.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/el.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/en-au.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/en-ca.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/en-gb.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/en.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/eo.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/es-mx.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/es.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/et.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/eu.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/fa.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/fi.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/fo.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/fr-ca.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/fr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/gl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/gu.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/he.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/hi.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/hr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/hu.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/id.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/is.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/it.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ja.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ka.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/km.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ko.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ku.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/lt.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/lv.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/mk.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/mn.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ms.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/nb.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/nl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/no.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/oc.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/pl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/pt-br.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/pt.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ro.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ru.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/si.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/sk.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/sl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/sq.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/sr-latn.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/sr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/sv.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/th.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/tr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/tt.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/ug.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/uk.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/vi.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/zh-cn.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/lang/zh.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/LICENSE.md">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/af.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/az.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/da.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/de.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/el.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/en.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/es.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/et.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/he.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/id.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/it.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/km.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/no.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/si.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/th.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/about/dialogs/about.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/about/dialogs/logo_ckeditor.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/clipboard/dialogs/paste.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/dialog/dialogDefinition.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/dialog/styles/dialog.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/icons.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/icons_hidpi.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/image/dialogs/image.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/image/images/noimage.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/link/dialogs/anchor.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/link/dialogs/link.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/link/images/anchor.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/link/images/hidpi/anchor.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/magicline/images/hidpi/icon.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/magicline/images/icon-rtl.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/magicline/images/icon.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/pastefromgdocs/filter/default.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/pastefromlibreoffice/filter/default.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/pastefromword/filter/default.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/pastetools/filter/common.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/pastetools/filter/image.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/scayt/CHANGELOG.md">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/scayt/dialogs/dialog.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/scayt/dialogs/options.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/scayt/dialogs/toolbar.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/scayt/LICENSE.md">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/scayt/README.md">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/af.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/ar.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/az.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/bg.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/ca.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/cs.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/cy.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/da.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/de.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/el.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/en-au.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/en.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/eo.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/es.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/et.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/eu.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/fa.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/fi.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/fr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/gl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/he.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/hr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/hu.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/id.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/it.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/ja.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/km.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/ko.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/ku.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/lt.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/lv.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/nb.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/nl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/no.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/oc.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/pl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/pt.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/ro.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/ru.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/si.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/sk.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/sl.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/sq.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/sr-latn.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/sr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/sv.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/th.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/tr.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/tt.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/ug.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/uk.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/vi.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/zh.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/specialchar/dialogs/specialchar.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/table/dialogs/table.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/tableselection/styles/tableselection.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/tabletools/dialogs/tableCell.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/plugins/widget/images/handle.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/README.md">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/css/samples.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/img/github-top.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/img/header-bg.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/img/header-separator.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/img/logo.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/img/logo.svg">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/img/navigation-tip.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/index.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/js/sample.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/js/sf.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/ajax.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/api.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/appendto.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/assets/inlineall/logo.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/assets/posteddata.php">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/assets/sample.jpg">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/assets/uilanguages/languages.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/datafiltering.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/dialog/assets/my_dialog.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/dialog/dialog.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/divreplace.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/enterkey/enterkey.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/htmlwriter/outputhtml.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/index.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/inlineall.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/inlinebycode.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/inlinetextarea.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/jquery.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/magicline/magicline.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/readonly.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/replacebyclass.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/replacebycode.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/sample.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/sample.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/sample_posteddata.php">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/tabindex.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/toolbar/toolbar.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/uicolor.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/uilanguages.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/wysiwygarea/fullpage.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/old/xhtmlstyle.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/css/fontello.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/font/config.json">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/font/fontello.eot">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/font/fontello.svg">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/font/fontello.ttf">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/font/fontello.woff">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/index.html">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/SECURITY.md">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/dialog.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/dialog_ie.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/dialog_ie8.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/dialog_iequirks.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/editor.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/editor_gecko.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/editor_ie.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/editor_ie8.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/editor_iequirks.css">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/icons.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/icons_hidpi.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/arrow.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/close.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/hidpi/close.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/hidpi/lock.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/hidpi/refresh.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/lock-open.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/lock.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/refresh.png">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/images/spinner.gif">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/skins/moono-lisa/readme.md">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/styles.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/ckeditor/vendor/promise.js">
+      <publishTime>07/20/2022 14:18:22</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.min.js">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/js/main.js">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/js/scripts.js">
+      <publishTime>08/30/2022 15:25:41</publishTime>
+    </File>
+    <File Include="wwwroot/js/scripts.min.js">
+      <publishTime>08/30/2022 15:25:41</publishTime>
+    </File>
+    <File Include="wwwroot/js/util.js">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/base/_page.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/base/_reset.scss">
+      <publishTime>09/05/2022 18:59:26</publishTime>
+    </File>
+    <File Include="wwwroot/sass/base/_typography.scss">
+      <publishTime>09/05/2022 18:58:59</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_actions.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_box.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_button.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_form.scss">
+      <publishTime>09/05/2022 18:59:17</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_icon.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_icons.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_image.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_list.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_row.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_section.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_table.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/components/_tiles.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/layout/_footer.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/layout/_header.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/layout/_main.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/layout/_menu.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/layout/_wrapper.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/libs/_breakpoints.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/libs/_functions.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/libs/_html-grid.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/libs/_mixins.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/libs/_vars.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/libs/_vendor.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/sass/main.scss">
+      <publishTime>08/30/2022 16:05:35</publishTime>
+    </File>
+    <File Include="wwwroot/sass/noscript.scss">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-brands-400.eot">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-brands-400.svg">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-brands-400.ttf">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-brands-400.woff">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-brands-400.woff2">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-regular-400.eot">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-regular-400.svg">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-regular-400.ttf">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-regular-400.woff">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-regular-400.woff2">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-solid-900.eot">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-solid-900.svg">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-solid-900.ttf">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-solid-900.woff">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="wwwroot/webfonts/fa-solid-900.woff2">
+      <publishTime>03/07/2022 02:21:37</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:38</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:18</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 23:42:34</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:42:40</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll">
+      <publishTime>10/14/2021 23:42:54</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 23:30:42</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll">
+      <publishTime>10/14/2021 23:38:10</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll">
+      <publishTime>10/14/2021 23:43:20</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll">
+      <publishTime>10/14/2021 23:38:34</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:40</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll">
+      <publishTime>10/14/2021 23:38:38</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>10/14/2021 23:38:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<noscript><link rel="stylesheet" href="~/css/noscript.css" /></noscript>
+<link rel="icon" type="image/svg" href="~/images/logo.svg"/>
+
+@if(ViewBag.Title != null)
+{
+    <title>@ViewBag.Title</title>
+}
+else
+{
+    <title>@Config.CompanyName - @Config.CompanySlogan</title>
+}
+@if(ViewBag.Description != null)
+{
+    <meta name="description" content="@ViewBag.Description" />
+}
+@if(ViewBag.Keywords != null)
+{
+    <meta name="keywords" content="@ViewBag.Keywords" />
+}
